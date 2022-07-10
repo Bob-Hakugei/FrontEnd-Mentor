@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32"
-      href="./images/favicon-32x32.png" />
-    <script src="./js/main.js" defer></script>
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Frontend Mentor | Article preview component</title>
-
-    
-  </head>
-
-  <body>
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <script src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Frontend Mentor | Article preview component</title>
 
 
-      <img class="drawer" src="images/drawers.jpg" alt="drawer" />
+</head>
 
-      <div class="mep"> <!--mep = formated-->
-        <div class="presentation">
-          <h1 class="title">
-            Shift the overall look and feel by adding these wonderful touches to
-            furniture in your home
-          </h1>
+<body>
+  <div class="container">
 
-          <p class="text">
-            Ever been in a room and felt like something was missing? Perhaps it
-            felt
-            slightly bare and uninviting. I’ve got some simple tips to help you
-            make
-            any room feel complete.
-          </p>
+
+    <img class="drawer" src="images/drawers.jpg" alt="drawer" />
+
+    <div class="mep">
+      <!--mep = formated-->
+      <div class="presentation">
+        <h1 class="title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+
+        <p class="text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt
+          slightly bare and uninviting. I’ve got some simple tips to help you
+          make
+          any room feel complete.
+        </p>
+
+      </div>
+
+
+      <!--bottom part, identity of the creator-->
+      <footer class="footer">
+
+        <img class="michelle" src="images/avatar-michelle.jpg" alt="Michelle
+            Appleton" class="creator" />
+
+        <div class="foot_text">
+          <h2>Michelle Appleton</h2><br> <span class="date">28 Jun 2020</span>
+        </div>
+
+        <img onclick="shareBar()" class="share_logo" src="images/icon-share.svg" alt="logoarrow">
+        <!--share bar ==> hidden before click-->
+        <div class="share_bar">
+          <h2>Share</h2>
+          <button class="button share_fb" data-url="#">
+            <img src="images/icon-facebook.svg" alt="facebook" />
+          </button>
+          <button class="button share_twitter" data-url="#">
+            <img src="images/icon-twitter.svg" alt="twitter" />
+          </button>
+          <button class="button share_pint" data-url="#">
+            <img src="images/icon-pinterest.svg" alt="" />
+          </button>
 
         </div>
 
-
-        <!--bottom part, identity of the creator-->
-        <footer class="footer">
-
-          <img class="michelle" src="images/avatar-michelle.jpg" alt="Michelle
-            Appleton" class="creator" />
-
-          <div class="foot_text">
-            <h2>Michelle Appleton</h2><br> <span class="date">28 Jun 2020</span>
-          </div>
-
-          <img onclick="shareBar()" class="share_logo" src="images/icon-share.svg" alt="logoarrow">
-                     <!--share bar ==> hidden before click-->
-                    <div class="share_bar">
-                      <h2>Share</h2>
-                      <button class="button share_fb" data-url="#">
-                        <img src="images/icon-facebook.svg" alt="facebook" />
-                      </button>
-                      <button class="button share_twitter" data-url="#">
-                        <img src="images/icon-twitter.svg" alt="twitter" />
-                      </button>
-                      <button class="button share_pint" data-url="#">
-                        <img src="images/icon-pinterest.svg" alt="" />
-                      </button>
-                    
-                    </div> 
-              
-        </footer>
-
-
-      </div>
-  
+      </footer>
 
 
     </div>
 
 
 
+  </div>
 
 
 
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
-        Mentor</a>. Coded by <a href="#">Bob Hakugei</a>.
-    </div>
 
 
 
-  </body>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>. Coded by <a href="#">Bob Hakugei</a>.
+  </div>
+
+
+
+</body>
 
 </html>
